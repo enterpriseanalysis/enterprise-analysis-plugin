@@ -1,0 +1,22 @@
+{
+  "name": "enterprise-analysis-plugin",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "smoke": "node scripts/smoke.js",
+    "assets:readme": "node scripts/render-readme.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

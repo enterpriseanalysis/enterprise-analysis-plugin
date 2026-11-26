@@ -1,0 +1,4 @@
+{
+  "name": "enterprise-analysis-dev",
+  "plugins": [{"name": "enterprise-analysis", "source": {"source": "local", "path": "./"}, "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Developer tools"}]
+}

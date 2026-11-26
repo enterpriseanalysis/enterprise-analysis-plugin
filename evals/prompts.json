@@ -1,0 +1,12 @@
+[
+  {"query":"公司想做 AI 客服，用哪个模型比较好？别太贵，回复快一点。","expected":"discover_evaluations then recommend_enterprise_models; distinguish benchmark time from response latency"},
+  {"query":"这两个模型到底哪个好？","expected":"resolve names then compare_model_evaluations"},
+  {"query":"我们现在的模型太贵，有没有效果差不多的替代？","expected":"ask current model if unknown, discover and compare shortlisted candidates"},
+  {"query":"做金融和做电商，选模型有什么区别？","expected":"discover exact industry dimensions then compare_industry_performance"},
+  {"query":"刚出的新模型值得换吗？","expected":"resolve model and baseline, retrieve recent evaluation and preserve underway flags"},
+  {"query":"用 EA 比较两个模型的评测","expected":"direct invocation; resolve exact model keys"},
+  {"query":"帮我训练一个分类模型","expected":"no EA tool call"},
+  {"query":"帮我把网页字体放大","expected":"no EA tool call"},
+  {"query":"查一下我公司上个月的客服投诉记录","expected":"no EA tool call; private company data is outside scope"},
+  {"query":"帮我跑一轮新的模型评测","expected":"explain EA tools read existing results; do not claim a run was started"}
+]

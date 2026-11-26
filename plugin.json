@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "enterprise-analysis",
+  "version": "0.1.1",
+  "description": "AI model evaluations, enterprise model recommendations, industry performance differences, and new model assessments grounded in Enterprise Analysis benchmark evidence.",
+  "author": {
+    "name": "Enterprise Analysis",
+    "url": "https://enterpriseanalysis.ai",
+    "email": "hello@enterpriseanalysis.ai"
+  },
+  "homepage": "https://enterpriseanalysis.ai",
+  "keywords": [
+    "model evaluation",
+    "AI benchmarks",
+    "model comparison",
+    "enterprise AI",
+    "model recommendation",
+    "industry benchmarks",
+    "new model evaluation",
+    "model upgrade",
+    "inference cost",
+    "model latency",
+    "模型评测",
+    "企业模型推荐",
+    "行业模型对比",
+    "新模型评测",
+    "模型选型",
+    "模型降本"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Enterprise Analysis",
+        "shortDescription": "Compare AI models for enterprise tasks",
+        "longDescription": "Query AI model evaluations, shortlist models for enterprise workloads, compare performance across industries, and assess new model releases. Get industry scores, measured benchmark case costs, inference times, reasoning configurations and evaluation status from Enterprise Analysis. Benchmark results support a shortlist; they do not guarantee production quality, time to first token, or your actual bill.",
+        "websiteURL": "https://enterpriseanalysis.ai",
+        "defaultPrompt": [
+          "公司想做 AI 客服，用哪个模型比较好？",
+          "这两个模型哪个好？",
+          "做金融和电商，选模型有什么区别？"
+        ]
+      }
+    }
+  },
+  "repository": "https://github.com/enterpriseanalysis/enterprise-analysis-plugin"
+}
