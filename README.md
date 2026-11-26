@@ -88,6 +88,7 @@ The plugin packages one selection skill and a local read-only MCP server. Automa
 ## Development and sources
 
 - [Run, configure and troubleshoot the server](docs/development.md)
+- [Prepare the public-directory submission](docs/public-submission.md)
 - [Backend field semantics](docs/backend-contract.md)
 - [Validation records](docs/validation.md)
 - [Prompt evaluation set](evals/prompts.json)

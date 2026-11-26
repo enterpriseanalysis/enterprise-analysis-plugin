@@ -31,14 +31,31 @@
     "com.openai": {
       "interface": {
         "displayName": "Enterprise Analysis",
-        "shortDescription": "Compare AI models for enterprise tasks",
+        "shortDescription": "AI models for your industry",
         "longDescription": "Query AI model evaluations, shortlist models for enterprise workloads, compare performance across industries, and assess new model releases. Get industry scores, measured benchmark case costs, inference times, reasoning configurations and evaluation status from Enterprise Analysis. Benchmark results support a shortlist; they do not guarantee production quality, time to first token, or your actual bill.",
         "websiteURL": "https://enterpriseanalysis.ai",
         "defaultPrompt": [
           "公司想做 AI 客服，用哪个模型比较好？",
           "这两个模型哪个好？",
           "做金融和电商，选模型有什么区别？"
-        ]
+        ],
+        "developerName": "Enterprise Analysis",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Model evaluations",
+          "Enterprise model recommendations",
+          "Industry comparisons",
+          "New model assessments"
+        ],
+        "supportURL": "https://github.com/enterpriseanalysis/enterprise-analysis-plugin/issues",
+        "privacyPolicyURL": "https://enterpriseanalysis.ai/legal/privacy?lang=en",
+        "termsOfServiceURL": "https://enterpriseanalysis.ai/legal/terms?lang=en",
+        "brandColor": "#124C49",
+        "composerIcon": "./assets/brand/monogram.png",
+        "logo": "./assets/brand/monogram.png",
+        "composerIconDark": "./assets/brand/monogram.png",
+        "logoDark": "./assets/brand/monogram.png",
+        "brandColorDark": "#74B93E"
       }
     }
   },
